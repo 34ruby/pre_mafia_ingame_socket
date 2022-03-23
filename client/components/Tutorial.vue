@@ -4,10 +4,10 @@
   <div>
     <canvas ref="game" width="640" height="480" style="border: 1px solid black;">
     </canvas>
-    <p>
+
       <button v-on:click="move('right')">right</button>
       <div v-on:click="move('right')">{{this.position.z}}</div>
-    </p>
+
   </div>
   </div>
 </template>
